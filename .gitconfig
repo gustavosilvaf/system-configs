@@ -1,0 +1,13 @@
+[user]
+	name = Gustavo Silva
+	email = gustavofsilva@email.com
+[pull]
+	ff = only
+[core]
+	editor = /Users/gustavosilva/Applications/vscode.app/Contents/Resources/app/bin/code --wait
+[alias]
+	c = !git add --all && git commit -m
+	s = !git status -s
+	l = !git log --pretty=format:'%C(white)%h%d %C(blue)%s - %C(green)%cn, %cr'
+	amend = !git add --all && git commit --amend --no-edit
+	count = !git shortlog -s --grep
